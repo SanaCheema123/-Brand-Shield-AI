@@ -1,0 +1,28 @@
+# Django
+django==4.2.13
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+python-dotenv==1.0.1
+django-filter==24.2
+
+# Google Gemini (Free - works in Pakistan)
+google-generativeai==0.7.2
+
+# HuggingFace (Free - works in Pakistan)
+huggingface-hub==0.23.4
+requests==2.32.3
+
+# ML / Explainability
+scikit-learn==1.5.0
+lime==0.2.0.1
+shap==0.45.1
+numpy==1.26.4
+Pillow==10.3.0
+transformers==4.41.2
+
+# Database
+psycopg2-binary==2.9.9  # For PostgreSQL (optional)
+
+# Utilities
+gunicorn==22.0.0
+whitenoise==6.7.0
